@@ -10,9 +10,9 @@ Take the test of LitMAE_SiamAPN++ as an example:
 python test.py                      \
   --dataset UAVDark135                            \ # dataset_name
   --datasetpath ./test_dataset                    \ # dataset_path
-  --config ./experiments/SiamAPN/config.yaml      \ # tracker_config
-  --snapshot ./experiments/SiamAPN/model.pth      \ # tracker_model
-  --trackername SiamAPN                           \ # tracker_name
+  --config ./experiments/SiamAPN++/config.yaml      \ # tracker_config
+  --snapshot ./experiments/SiamAPN++/model.pth      \ # tracker_model
+  --trackername LitMAE_SiamAPN++                           \ # tracker_name
 
   --e_weights ./experiments/LitMAE/model.pth         \ # enhancer_model
   --enhancername LitMAE                              \ # enhancer_name
