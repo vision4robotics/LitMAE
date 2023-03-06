@@ -2,7 +2,9 @@
 
 # Keep excellent tracking in the nighttime!
 
-To evaluate the ability of LitMAE to lighten up semantics for aerial trackers, you need to meet the enviroment requirements of base trackers, as well as download their snapshots to corresponding folders at first. Details can be found in their repos. Currently supporting trackers including [LPAT](https://github.com/vision4robotics/LPAT), [SiamAPN](https://github.com/vision4robotics/SiamAPN), [SiamAPN++](https://github.com/vision4robotics/SiamAPN), [SiamRPN++](https://github.com/STVIR/pysot), and [HiFT](https://github.com/vision4robotics/HiFT).
+## Tracking Test 
+
+To evaluate the ability of LitMAE to lighten up semantics for aerial trackers, you need to meet the enviroment requirements of base trackers, as well as download their snapshots to corresponding folders at first. Details can be found in their repos. Currently supporting trackers including [LPAT](https://github.com/vision4robotics/LPAT), [HiFT](https://github.com/vision4robotics/HiFT), [SiamAPN](https://github.com/vision4robotics/SiamAPN), [SiamAPN++](https://github.com/vision4robotics/SiamAPN), and [SiamRPN++](https://github.com/STVIR/pysot).
 
 Take the test of LitMAE_SiamAPN++ as an example:
 
@@ -10,9 +12,10 @@ Take the test of LitMAE_SiamAPN++ as an example:
 python test.py                      \
   --dataset UAVDark135                            \ # dataset_name
   --datasetpath ./test_dataset                    \ # dataset_path
+  
   --config ./experiments/SiamAPN++/config.yaml      \ # tracker_config
   --snapshot ./experiments/SiamAPN++/model.pth      \ # tracker_model
-  --trackername LitMAE_SiamAPN++                           \ # tracker_name
+  --trackername LitMAE_SiamAPN++                    \ # tracker_name
 
   --e_weights ./experiments/LitMAE/model.pth         \ # enhancer_model
   --enhancername LitMAE                              \ # enhancer_name
@@ -21,7 +24,7 @@ python test.py                      \
 
 ## Evaluation 
 
-If you want to evaluate the trackers mentioned above, please put those results into `results` directory as `results/<dataset_name>/<tracker_name>`.
+Please put those results into `results` directory as `results/<dataset_name>/<tracker_name>`.
 
 ```
 python tools/eval.py                              \
