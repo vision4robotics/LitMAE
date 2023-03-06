@@ -40,6 +40,6 @@ Weiyu Peng
 Email: 2032698@tongji.edu.cn .
 
 ## Acknowledgements
-- The SOTA trackers' tracking pipelines are implemented based on [SiamAPN](https://github.com/vision4robotics/SiamAPN), [SiamAPN++](https://github.com/vision4robotics/SiamAPN), [SiamRPN++](https://github.com/STVIR/pysot), [HiFT](https://github.com/vision4robotics/HiFT), and [LPAT](https://github.com/vision4robotics/LPAT). The integeration of tracking pipelines is based on [SNOT](https://github.com/vision4robotics/SiameseTracking4UAV).
+- The SOTA trackers' tracking pipelines are implemented based on [LPAT](https://github.com/vision4robotics/LPAT), [HiFT](https://github.com/vision4robotics/HiFT), [SiamAPN](https://github.com/vision4robotics/SiamAPN), [SiamAPN++](https://github.com/vision4robotics/SiamAPN), and [SiamRPN++](https://github.com/STVIR/pysot). The integeration of tracking pipelines is based on [SNOT](https://github.com/vision4robotics/SiameseTracking4UAV).
 
 - We would also like to express our sincere thanks to the contributors.
