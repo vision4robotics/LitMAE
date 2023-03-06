@@ -2,8 +2,6 @@
 
 # Keep excellent tracking in the nighttime!
 
-## Test
-
 To evaluate the ability of LitMAE to lighten up semantics for aerial trackers, you need to meet the enviroment requirements of base trackers, as well as download their snapshots to corresponding folders at first. Details can be found in their repos. Currently supporting trackers including [LPAT](https://github.com/vision4robotics/LPAT), [SiamAPN](https://github.com/vision4robotics/SiamAPN), [SiamAPN++](https://github.com/vision4robotics/SiamAPN), [SiamRPN++](https://github.com/STVIR/pysot), and [HiFT](https://github.com/vision4robotics/HiFT).
 
 Take the test of LitMAE_SiamAPN++ as an example:
