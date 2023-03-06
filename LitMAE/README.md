@@ -17,9 +17,3 @@
 >     python lowlight_train.py
 >     ```
 
-
-
-# Acknowledgements
-
-We sincerely thank the contribution of `Junjie Ye et al.`, `Kaiming He et al.` for their previous work [DarkLighter](https://github.com/vision4robotics/DarkLighter) and [MAE](https://github.com/facebookresearch/mae).
-
