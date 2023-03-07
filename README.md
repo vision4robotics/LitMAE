@@ -6,7 +6,7 @@ Code and demo videos of LitMAE --- Lighten up the semantics for aerial trackers.
 >The development of nighttime tracking has sig- nificantly advanced the expansive all-day applications of in- telligent unmanned aerial vehicles (UAVs). However, previous state-of-the-art (SOTA) UAV trackers have lacked emphasis on latent semantics, resulting in a disability to cope with complex nighttime conditions, e.g., frequent viewpoint change, fast motion, and sudden illumination variation. To address this, we propose a novel framework, i.e., LitMAE, to directly auto- emphasize the latent semantics and adaptively lighten up aerial images for nighttime UAV tracking. By fusing distinguishable semantic information, LitMAE generates different enhance- ment strategies for background and foreground. Specifically, a novel pixel-level masked image modeling (PixMIM) process is proposed to elevate the enhancer’s capability for semantics perception. We also construct a static-dynamic two-branch module to discriminate the background and foreground with latent semantics auto-emphasis, and a dynamic-weight block based on the Transformer for efficient foreground perception. Extensive evaluations on authoritative benchmarks demonstrate that LitMAE supports SOTA UAV trackers to achieve com- petitive accuracy and robustness in nighttime scenes, outper- forming previous SOTA low-light enhancers. Real-world tests further validate the practicability and efficiency of the proposed method.
 
 Below is the proposed framework.
-![The proposed framework](https://github.com/vision4robotics/LitMAE/blob/main/images/Framework.png)
+![The proposed framework](https://github.com/vision4robotics/LitMAE/blob/main/images/framework.png)
 
 # Demo video
 
