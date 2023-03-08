@@ -31,7 +31,7 @@ python tools/eval.py                              \
   --dataset UAVDark135                            \ # dataset_name
   --datasetpath path/of/your/dataset              \ # dataset_path
   --tracker_path ./results                        \ # result_path
-  --tracker_prefix 'SiamAPN_SCT_CDT'                # tracker_name
+  --tracker_prefix 'LitMAE_SiamAPN'                # tracker_name
 ```
 
 ## Contact
