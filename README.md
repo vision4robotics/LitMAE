@@ -10,7 +10,7 @@ Below is the proposed framework.
 
 # Demo video
 
-[![LitMAE](https://github.com/vision4robotics/LitMAE/blob/main/images/demo.png)](https://github.com/vision4robotics/LitMAE/blob/main/images/demo.png)
+[![LitMAE](https://youtu.be/Eunto29sJaU)](https://youtu.be/Eunto29sJaU)
 
 <!-- # Publication and citation
 
